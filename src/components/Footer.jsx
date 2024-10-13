@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className=" text-gray-400 py-10 px-5 w-full border-t-2 border-t-gray-600 mt-10">
       <div className="container mx-auto grid grid-cols-3 items-start">
         {/* Left Section - Logo */}
-        <div className="flex justify-start text-white text-2xl">AS</div>
+        <div className="flex justify-start text-white text-2xl signature">AS</div>
 
         {/* Center Section - Links */}
         <div className="flex flex-col justify-center text-center space-y-3"></div>

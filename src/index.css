@@ -45,6 +45,10 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'AmericanSignature';
+  src: url('./assets/fonts/AmericanSignature-w14En.ttf');
+}
 #root {
   width: 100%;
 }
@@ -72,7 +76,11 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
+.signature {
+  font-family: 'AmericanSignature';
+  font-size: 50px;
+  color: white;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -316,6 +324,13 @@ button:focus-visible {
   box-shadow: 0 0 20px #fff;
   width: 12px;
   height: 12px;
+}
+.img-height {
+  height: 945px;
+}
+.img-height img {
+  height: 944px;
+  object-fit: cover;
 }
 
 

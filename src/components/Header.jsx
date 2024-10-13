@@ -12,6 +12,10 @@ const Header = () => {
 
   const setActiveTabLink = (tab) => {
     setActiveTab(tab)
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
     navigate(tab);
   }
 
